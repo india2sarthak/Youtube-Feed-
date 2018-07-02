@@ -17,7 +17,7 @@ class Video {
         var appCategories = videos()
        if(key == 0)
        {
-        url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=Alia%20Bhatt%20Songs&maxResults=15&key=AIzaSyCBSk3oNsdIcpEtfUt6HFESAe8L6ZuAgko&regionCode=IN"
+        url = "https://www.googleapis.com/youtube/v3/search?part=snippet&chart=latest&maxResults=15&key=AIzaSyCBSk3oNsdIcpEtfUt6HFESAe8L6ZuAgko&regionCode=IN"
        }else if (key == 1) {
         
         url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=Hans%20Zimmer%20Soundtrack&maxResults=15&key=AIzaSyCBSk3oNsdIcpEtfUt6HFESAe8L6ZuAgko&regionCode=IN"
