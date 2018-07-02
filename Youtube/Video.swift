@@ -17,18 +17,18 @@ class Video {
         var appCategories = videos()
        if(key == 0)
        {
-        url = "https://www.googleapis.com/youtube/v3/search?part=snippet&chart=latest&maxResults=15&key=AIzaSyCBSk3oNsdIcpEtfUt6HFESAe8L6ZuAgko&regionCode=IN"
+        url = "https://www.googleapis.com/youtube/v3/search?part=snippet&chart=latest&maxResults=15&key=<API_KEY>&regionCode=IN"
        }else if (key == 1) {
         
-        url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=Hans%20Zimmer%20Soundtrack&maxResults=15&key=AIzaSyCBSk3oNsdIcpEtfUt6HFESAe8L6ZuAgko&regionCode=IN"
+        url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=Hans%20Zimmer%20Soundtrack&maxResults=15&key=<API_KEY>&regionCode=IN"
         
         }else if (key == 2)
        {
         
-        url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=Unbox%20Therapy&maxResults=15&key=AIzaSyCBSk3oNsdIcpEtfUt6HFESAe8L6ZuAgko&regionCode=IN"
+        url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=Unbox%20Therapy&maxResults=15&key=<API_KEY>&regionCode=IN"
         
        }else{
-        url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=Selena%20Gomez%20VEVO&maxResults=15&key=AIzaSyCBSk3oNsdIcpEtfUt6HFESAe8L6ZuAgko&regionCode=IN"
+        url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=Selena%20Gomez%20VEVO&maxResults=15&key=<API_KEY>&regionCode=IN"
         
         
         }
